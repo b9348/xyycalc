@@ -143,7 +143,7 @@ export default function Home() {
               </Badge>
               
               <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-psychology-primary via-psychology-secondary to-psychology-accent bg-clip-text text-transparent">
-                性压抑指数计算器
+                性压抑指数计算器 - 专业性心理健康评估
               </h1>
               
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
