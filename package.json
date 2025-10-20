@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "rsbuild dev",
-    "build": "rsbuild build -c rsbuild.config.ts && rsbuild build -c rsbuild.config.server.ts",
+    "build": "rsbuild build -c rsbuild.config.ts",
+    "build:all": "rsbuild build -c rsbuild.config.ts && rsbuild build -c rsbuild.config.server.ts",
     "build:client": "rsbuild build -c rsbuild.config.ts",
     "build:cloudflare": "rsbuild build -c rsbuild.config.cloudflare.ts",
     "cf:deploy": "npm install --legacy-peer-deps && npm run build:cloudflare",
