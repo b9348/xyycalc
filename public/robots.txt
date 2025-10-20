@@ -1,0 +1,33 @@
+# robots.txt for Sexual Repression Calculator
+# 性压抑计算器 - 搜索引擎爬虫配置
+
+User-agent: *
+Allow: /
+
+# 允许所有搜索引擎访问
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+# 禁止访问的路径
+Disallow: /api/
+Disallow: /_middleware.js
+Disallow: /redirect.html
+
+# Sitemap 位置
+Sitemap: https://xxy.gta4.bio/sitemap.xml
+
+# 爬取延迟(毫秒)
+Crawl-delay: 1
+
